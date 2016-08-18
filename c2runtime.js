@@ -20490,6 +20490,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Pin,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.system_object.prototype.acts.ResetGlobals,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Text.prototype.acts.SetWebFont,
 	cr.plugins_.TiledBg.prototype.acts.SetX,
