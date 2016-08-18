@@ -20490,6 +20490,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Pin,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.system_object.prototype.acts.ResetGlobals,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Text.prototype.acts.SetWebFont,
 	cr.plugins_.TiledBg.prototype.acts.SetX,
@@ -20534,6 +20535,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.CreateObject,
 	cr.system_object.prototype.exps.random,
 	cr.plugins_.Text.prototype.acts.MoveToTop,
+	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
+	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
+	cr.system_object.prototype.acts.SetTimescale,
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.behaviors.Platform.prototype.acts.SetVectorX,
 	cr.behaviors.Platform.prototype.acts.SimulateControl
